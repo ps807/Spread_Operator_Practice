@@ -6,7 +6,6 @@ function App() {
 
   function handleChange(event) {
     setNewItem(event.target.value);
-    console.log(newItem);
   }
 
   function handleClick(event) {
