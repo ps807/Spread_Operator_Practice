@@ -27,9 +27,9 @@ function App() {
       </div>
       <div>
         <ul>
-          {items.map((item) => {
-            return <li>{item}</li>;
-          })}
+          {items.map((item) => (
+            <li>{item}</li>
+          ))}
         </ul>
       </div>
     </div>
