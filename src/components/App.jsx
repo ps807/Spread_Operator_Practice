@@ -12,6 +12,7 @@ function App() {
     setItems((prevValue) => {
       return [...prevValue, newItem];
     });
+    setNewItem("");
   }
 
   return (
